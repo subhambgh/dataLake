@@ -50,6 +50,8 @@ Running spark job (Before running job make sure EMR Role have access to s3)
 	  **time**  - timestamps of records in  **songplays**  broken down into specific units
     Fields -   _start_time, hour, day, week, month, year, weekday_
     
+    ![er](images/er.png)
+> ER Diagram
 4.  Load it back to S3
     
     Writes them to partitioned parquet files in table directories on S3.
